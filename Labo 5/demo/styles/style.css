@@ -1,0 +1,20 @@
+h1, h2 {
+    color:red;
+}
+<!-- als h1 onder een section valt moet die een groene kleur krijgen -->
+
+section>h1{
+    color:green;
+    font-size:5em;
+}
+/*zelf opmaak definieren op basis van een klasse*/
+.styleBlue{
+    color:blue;
+    font-size:4em;
+}
+.styleGreen{
+    color:green;
+}
+
+/*opmaak definieren op basis van een ID*/
+#opmaak
