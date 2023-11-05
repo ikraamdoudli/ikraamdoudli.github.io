@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            margin: 0px;
+            font-size: 5em;
+            border: 2px solid red;
+            width: 95%
+            margin-left: auto;
+            margin-right: auto;
+            /*border padding en margin worden nooit doorgegeven aan hun kinderen*/
+        }
+        h1{
+            background-color: red;
+            width: 150px;
+            border: 5px solid black;
+         /*   padding-left: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 20px;
+          */
+            padding: 20px;
+            /*wijzerzin: top right bottom left */
+            padding: 20px, 50, px, 40px, 100px;
+            padding:50px 100px;
+            /*als je maar twee waarden schrijft vb 50px en 100px dan zal de eerste gebruikt worden voor
+            top en bottom en de tweede left en right */
+            margin-left: 50px;
+            /*margin is altijd transparant*/
+            margin-top: 0px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p{
+            background-color: blue;
+        }
+        img {
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<h1>VIVES </h1>
+
+<img src="images/Lente.jpg" alt="lente"/>
+<p>Vives heeft verschillende campussen</p>
+</body>
+</html>
