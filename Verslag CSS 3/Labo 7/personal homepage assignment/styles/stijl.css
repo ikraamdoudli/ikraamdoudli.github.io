@@ -1,0 +1,104 @@
+body {
+    width: 95%;
+    background-color: pink;
+}
+h1 { font-family: Arial;
+color: blue;
+}
+p{
+    font-style: italic;
+}
+li{
+    font-weight: lighter;
+    font-family: Verdana;
+}
+img{
+    width: 30%;
+    height: 30%;
+}
+ul{
+    margin: 40px;
+}
+header h3{
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+/* Rest van de CSS-code blijft hetzelfde */
+table td,
+table th {
+    padding: 7px 16px;
+}
+
+table thead th {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #FFB0ED), color-stop(1, #E639A1));
+    background: -moz-linear-gradient(center top, #FFB0ED 5%, #E639A1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFB0ED', endColorstr='#E639A1');
+    background-color: #FFB0ED;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 0px solid #A86F48;
+}
+
+table thead th:first-child {
+    border: none;
+}
+
+table tbody td {
+    color: rebeccapurple;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+table tbody td:first-child {
+    border-left: none;
+}
+
+table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+table tfoot td div {
+    border-top: 1px solid #1443FF;
+    background: #F7CDCD;
+}
+
+table tfoot td {
+    padding: 0;
+    font-size: 10px;
+}
+
+table tfoot td div {
+    padding: 2px;
+}
+
+table tfoot td ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+table tfoot li {
+    display: inline;
+}
+
+table tfoot li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 1px;
+    color: #FFFFFF;
+    border: 1px solid #991821;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #991821), color-stop(1, #80141C));
+    background: -moz-linear-gradient(center top, #991821 5%, #80141C 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#991821

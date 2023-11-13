@@ -1,0 +1,6 @@
+header.hoofd.h1{color:gray}/*0012*/
+header h1 {color:beige;} /*0002 dus hoger speceficiteit dus wordt toegepast ookal id eze niet de laatste*/
+h1 /*SPECIFITEIT 0001*/
+{color:red;}
+h1 /*SPE 0001*/
+{color:blue;}

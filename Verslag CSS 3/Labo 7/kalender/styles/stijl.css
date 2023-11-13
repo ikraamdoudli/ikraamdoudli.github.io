@@ -1,0 +1,25 @@
+/* De eerste cel van de bovenste rij van de body grijs maken */
+tbody tr:first-child td:first-child {
+    background-color: grey;
+}
+
+/* De eerste en laatste kolommen roze maken, behalve de eerste cel van de bovenste rij */
+tbody tr td:first-child,
+tbody tr td:last-child {
+    background-color:  rgb(255, 220, 220);
+}
+
+/* De laatste drie cellen van de benedenste rij grijs maken */
+tbody tr:last-child td:nth-last-child(-n+3) {
+    background-color: grey;
+}
+
+
+thead>tr{
+   color: rgb(200,190,240);
+    background-color: rgb(35,37,70);
+}
+
+.VrijeDag{
+    background-color: rgb(250,120,120);
+}
