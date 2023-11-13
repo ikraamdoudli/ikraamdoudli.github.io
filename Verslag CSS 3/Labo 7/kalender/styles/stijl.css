@@ -1,3 +1,8 @@
+body{
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+}
 /* De eerste cel van de bovenste rij van de body grijs maken */
 tbody tr:first-child td:first-child {
     background-color: grey;
