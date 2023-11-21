@@ -1,3 +1,7 @@
+html{
+    margin: 0px;
+    padding: 0;
+}
 body{
     width: 95%;
     margin-right: auto;
@@ -15,6 +19,7 @@ header img{
     padding: 5px;
     text-align: center;
     margin: 5px;
+    box-sizing: border-box;
 }
 h1, h2{
     font-family: Verdana;
@@ -43,7 +48,7 @@ h2{
     font-style: italic;
     font-family:Helvetica;
     box-sizing: border-box;
-    border: dotted;
+    border: dashed ;
 }
 #guarantee a{ color: #444444}
 p{
