@@ -6,6 +6,10 @@ body  {
 }
 
 
+#main {
+    float:left;
+    width: 75%;
+}
 #news {
     float:right;
     width: 25%;
@@ -16,22 +20,17 @@ body  {
     font-size: 90%;
 }
 
-#main {
-    float:left;
-    width: 75%;
-}
-
 #top {
     height: 200px;
     text-align: center;
-    background: url("../../airbus/images/bgsky3.jpg") no-repeat;
+    background: url("../images/bgsky3.jpg") no-repeat;
     background-size: cover;
-    position:relative; /* nodig om vliegtuig absoluut te positioneren tov dit element */
+    position:relative;
     color : darkblue;
 }
 
 #top img {
-    position:absolute; /* vliegtuig absoluut positioneren tov dichtste non-static ancestor */
+    position:absolute;
     bottom:60px;
     right: 250px;}
 
@@ -66,7 +65,7 @@ margin : 0px;
 .introduction {
     margin-top: 20px;
     margin-left: 20px;
-    background: url(../../airbus/images/airbus_logo.jpg) no-repeat top left;
+    background: url(../images/airbus_logo.jpg) no-repeat top left;
     padding : 0px 30px 20px 170px;
 
     font-size: 90%;
