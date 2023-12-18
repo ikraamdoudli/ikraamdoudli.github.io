@@ -19,7 +19,7 @@ body {
 
 }
 section{
-justify-content: center;
+  justify-content: center;
   margin: auto;
   align-items: center;
 
@@ -35,8 +35,8 @@ justify-content: center;
   inline-size: 100%;
   max-inline-size: 350px;
   display: flex;
-flex-direction: column;
- /* tip: gebruik flex-direction"  */
+  flex-direction: column;
+  /* tip: gebruik flex-direction"  */
 
 
 }
@@ -72,7 +72,7 @@ flex-direction: column;
   display: flex;
   flex-direction: row ;
   justify-content: space-evenly;
-/* zorg dat de statistische gegevens horizontaal komen */
+  /* zorg dat de statistische gegevens horizontaal komen */
 
 
 }
