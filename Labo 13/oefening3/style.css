@@ -1,0 +1,25 @@
+img {
+    position: absolute;
+}
+#arch {
+    top: 100px;
+    left: 100px;
+}
+#tech {
+    /*bottom: 100px;
+    right: 100px;*/
+    top:calc(100% - (100px + 452px));/* 100 px +hoogte foto */
+    left:calc(100% - (100px + 450px));/* 100px + breedte foto*/
+}
+
+#animals {
+    /*top: 100px;
+    right: 100px;*/
+    top:100px;
+    left: calc(100% - (100px + 450px));
+
+}
+#nature {
+    left: 100px;
+    top:calc(100% - (100px + 450px));
+}
